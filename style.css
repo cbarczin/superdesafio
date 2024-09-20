@@ -10,7 +10,7 @@ body {
   background-color: #EFEEF3;
   font-family: Kodchasan;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   body {
     overflow-x: hidden;
   }
@@ -23,7 +23,7 @@ header .cabeçalho {
   padding: 10px 2px;
   background-color: #EFEEF3;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   header .cabeçalho {
     display: flex;
     flex-direction: column;
@@ -43,14 +43,14 @@ header .cabeçalho ul {
   width: 70vw;
   font-size: 24px;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   header .cabeçalho ul {
     display: flex;
     flex-direction: column;
     width: 100vw;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   header .cabeçalho li {
     padding: 15px;
     font-size: 24px;
@@ -59,7 +59,7 @@ header .cabeçalho ul {
 header .backgroundimage {
   width: 100%;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   header .backgroundimage {
     display: none;
   }
@@ -70,7 +70,7 @@ header .backgroundimage {
   justify-content: space-evenly;
   margin: 40px 2%;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .primeira {
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@ header .backgroundimage {
   justify-content: space-evenly;
   width: 35%;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .primeira div {
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ header .backgroundimage {
 .primeira div .titulo {
   font-size: 36px;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .primeira div .titulo {
     font-size: 23px;
     font-weight: 500;
@@ -110,7 +110,7 @@ header .backgroundimage {
   text-align: center;
   font-size: 24px;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .primeira div p {
     font-size: 20px;
     margin: 0 5%;
@@ -124,7 +124,7 @@ header .backgroundimage {
   margin: 40px 2%;
   font-size: 30px;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .segunda {
     display: block;
     margin: 0;
@@ -133,7 +133,7 @@ header .backgroundimage {
 .segunda p {
   width: 20vw;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .segunda p {
     font-size: 20px;
     font-weight: 500;
@@ -152,7 +152,7 @@ header .backgroundimage {
   justify-content: space-around;
   width: 50%;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .segunda .produtos {
     display: block;
     width: 100%;
